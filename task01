@@ -1,0 +1,41 @@
+package varun;
+
+import java.util.*;
+
+public class sample {
+    public static void main(String[] args) {
+        Scanner s=new Scanner (System.in);
+        System.out.println("Enter n1");
+        int n1=s.nextInt();
+        System.out.println("Enter n2");
+        int n2=s.nextInt();
+        System.out.println("Enter the operation");
+        char c=s.next().charAt(0);
+        if(c=='+')
+            System.out.println("sum is"+(n1+n2));
+        else if(c=='-')
+            System.out.println("differnece is" +(n1-n2));
+        else if(c=='*')
+            System.out.println("product is"+(n1*n2));
+        else if(c=='/')
+            System.out.println("quotient is"+(double)n1/n2);
+        else if(c=='%')
+            System.out.println("remainder is"+n1%n2);    
+
+        }
+        
+            }
+        
+        
+
+
+
+    
+
+        
+
+
+
+        
+    
+
